@@ -6,4 +6,11 @@ public class Appointments {
 	public String appointmentProcess() {
 		return null;
 	}
+	
+	public String patients(String patientname , String disease) {
+		
+		System.out.println("patient treatment is started");
+		
+		return patientname+"is taking treatment from this Hospotal";
+	}
 }
